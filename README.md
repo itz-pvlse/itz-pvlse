@@ -33,3 +33,140 @@ Stack       Laravel · Vue 3 · Inertia.js · Tailwind CSS · Blade
 Data        MySQL · Database Migrations · Query Optimization
 Tooling     Git · Docker · Ubuntu Linux · Postman · Squircle CE
 Status      ● Open for engineering opportunities & high-impact projects
+```
+
+I turn complex backend challenges into systems that are easy to reason about, easy to extend and hard to break. My work covers the full stack, from schema design and API contracts to reactive interfaces, with a strong bias toward standardization, consistency and long-term maintainability.
+
+---
+
+## `~/architecture`
+
+*How I structure a typical production system:*
+
+```mermaid
+flowchart LR
+    A[Client<br/>Vue 3 · Inertia.js] -->|HTTPS| B[Routing Layer<br/>Laravel Controllers]
+    B --> C[Service Layer<br/>Business Logic]
+    C --> D[Data Layer<br/>Eloquent · Query Builder]
+    D --> E[(MySQL)]
+    C --> F[[Queue Workers]]
+    C --> G[(Cache)]
+    C --> H[Media Storage<br/>CMS Library]
+    style A fill:#0d1117,stroke:#22D3EE,color:#22D3EE
+    style B fill:#0d1117,stroke:#22D3EE,color:#22D3EE
+    style C fill:#0d1117,stroke:#00FF9C,color:#00FF9C
+    style D fill:#0d1117,stroke:#22D3EE,color:#22D3EE
+    style E fill:#0d1117,stroke:#9CA3AF,color:#9CA3AF
+    style F fill:#0d1117,stroke:#9CA3AF,color:#9CA3AF
+    style G fill:#0d1117,stroke:#9CA3AF,color:#9CA3AF
+    style H fill:#0d1117,stroke:#9CA3AF,color:#9CA3AF
+```
+
+---
+
+## `~/engineering-principles`
+
+| Principle | In practice |
+|:--|:--|
+| **Standardize first** | Consistent conventions, naming and structure so any engineer can navigate the codebase |
+| **Separation of concerns** | Thin controllers, focused services, isolated data access |
+| **Design the data model early** | Normalized schemas, deliberate indexing, migrations that are safe to run |
+| **Refactor continuously** | Small, safe improvements that keep technical debt near zero |
+| **Ship production-ready** | Validation, error handling, logging and tests are part of the feature |
+
+---
+
+## `~/stack`
+
+<table>
+  <tr>
+    <td width="190"><code>languages</code></td>
+    <td><img src="https://skillicons.dev/icons?i=php,python,js,c,cpp,java,html,css&theme=dark" /></td>
+  </tr>
+  <tr>
+    <td><code>frameworks</code></td>
+    <td><img src="https://skillicons.dev/icons?i=laravel,vue,tailwind&theme=dark" /></td>
+  </tr>
+  <tr>
+    <td><code>databases</code></td>
+    <td><img src="https://skillicons.dev/icons?i=mysql&theme=dark" /></td>
+  </tr>
+  <tr>
+    <td><code>devops &amp; tools</code></td>
+    <td><img src="https://skillicons.dev/icons?i=git,github,docker,ubuntu,linux,postman&theme=dark" /></td>
+  </tr>
+</table>
+
+---
+
+## `~/projects`
+
+<!-- Replace with your real repositories -->
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>📦 <a href="https://github.com/itz-pvlse/REPO-NAME">project-one</a></h4>
+      <sub>Problem solved, architecture used and measurable outcome in one line.</sub><br><br>
+      <code>Laravel</code> · <code>MySQL</code> · <code>Docker</code>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🧩 <a href="https://github.com/itz-pvlse/REPO-NAME">project-two</a></h4>
+      <sub>Problem solved, architecture used and measurable outcome in one line.</sub><br><br>
+      <code>Vue 3</code> · <code>Inertia.js</code> · <code>Tailwind</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🗂️ <a href="https://github.com/itz-pvlse/REPO-NAME">project-three</a></h4>
+      <sub>Problem solved, architecture used and measurable outcome in one line.</sub><br><br>
+      <code>PHP</code> · <code>CMS</code> · <code>Media Library</code>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚙️ <a href="https://github.com/itz-pvlse/REPO-NAME">project-four</a></h4>
+      <sub>Problem solved, architecture used and measurable outcome in one line.</sub><br><br>
+      <code>Python</code> · <code>Automation</code>
+    </td>
+  </tr>
+</table>
+
+---
+
+## `~/metrics`
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=itz-pvlse&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=22D3EE&icon_color=00FF9C&text_color=c9d1d9&ring_color=22D3EE" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itz-pvlse&layout=compact&hide_border=true&bg_color=0d1117&title_color=22D3EE&text_color=c9d1d9" width="49%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=itz-pvlse&hide_border=true&background=0d1117&ring=22D3EE&fire=00FF9C&currStreakLabel=22D3EE&sideLabels=9CA3AF&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=9CA3AF" width="80%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itz-pvlse&bg_color=0d1117&color=22D3EE&line=00FF9C&point=ffffff&area=true&area_color=0e7490&hide_border=true&custom_title=Contribution%20Activity" width="100%" />
+</p>
+
+---
+
+## `~/contact`
+
+```bash
+$ ./connect --open
+```
+
+<p align="center">
+  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/EMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=22D3EE&labelColor=0d1117&color=0e7490" /></a>
+  <a href="https://linkedin.com/in/your-handle"><img src="https://img.shields.io/badge/LINKEDIN-0d1117?style=for-the-badge&logo=linkedin&logoColor=22D3EE&labelColor=0d1117&color=0e7490" /></a>
+  <a href="https://your-portfolio.dev"><img src="https://img.shields.io/badge/PORTFOLIO-0d1117?style=for-the-badge&logo=vercel&logoColor=22D3EE&labelColor=0d1117&color=0e7490" /></a>
+</p>
+
+<!-- Place pacman-love.gif in an /assets folder in this repo -->
+<p align="center">
+  <img src="./assets/pacman-love.gif" width="420" alt="pacman love" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3500&pause=1500&color=9CA3AF&center=true&vCenter=true&width=600&height=30&lines=%2F%2F+make+it+work%2C+make+it+right%2C+make+it+clean" />
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0e7490&height=60&section=footer" width="100%" />
