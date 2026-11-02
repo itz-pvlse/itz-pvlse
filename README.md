@@ -97,68 +97,6 @@ flowchart LR
   </tr>
 </table>
 
----
-
-## `~/projects`
-
-<!-- Replace with your real repositories -->
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>📦 <a href="https://github.com/itz-pvlse/REPO-NAME">project-one</a></h4>
-      <sub>Problem solved, architecture used and measurable outcome in one line.</sub><br><br>
-      <code>Laravel</code> · <code>MySQL</code> · <code>Docker</code>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🧩 <a href="https://github.com/itz-pvlse/REPO-NAME">project-two</a></h4>
-      <sub>Problem solved, architecture used and measurable outcome in one line.</sub><br><br>
-      <code>Vue 3</code> · <code>Inertia.js</code> · <code>Tailwind</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🗂️ <a href="https://github.com/itz-pvlse/REPO-NAME">project-three</a></h4>
-      <sub>Problem solved, architecture used and measurable outcome in one line.</sub><br><br>
-      <code>PHP</code> · <code>CMS</code> · <code>Media Library</code>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚙️ <a href="https://github.com/itz-pvlse/REPO-NAME">project-four</a></h4>
-      <sub>Problem solved, architecture used and measurable outcome in one line.</sub><br><br>
-      <code>Python</code> · <code>Automation</code>
-    </td>
-  </tr>
-</table>
-
----
-
-## `~/metrics`
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=itz-pvlse&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=22D3EE&icon_color=00FF9C&text_color=c9d1d9&ring_color=22D3EE" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itz-pvlse&layout=compact&hide_border=true&bg_color=0d1117&title_color=22D3EE&text_color=c9d1d9" width="49%" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=itz-pvlse&hide_border=true&background=0d1117&ring=22D3EE&fire=00FF9C&currStreakLabel=22D3EE&sideLabels=9CA3AF&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=9CA3AF" width="80%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itz-pvlse&bg_color=0d1117&color=22D3EE&line=00FF9C&point=ffffff&area=true&area_color=0e7490&hide_border=true&custom_title=Contribution%20Activity" width="100%" />
-</p>
-
----
-
-## `~/contact`
-
-```bash
-$ ./connect --open
-```
-
-<p align="center">
-  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/EMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=22D3EE&labelColor=0d1117&color=0e7490" /></a>
-  <a href="https://linkedin.com/in/your-handle"><img src="https://img.shields.io/badge/LINKEDIN-0d1117?style=for-the-badge&logo=linkedin&logoColor=22D3EE&labelColor=0d1117&color=0e7490" /></a>
-  <a href="https://your-portfolio.dev"><img src="https://img.shields.io/badge/PORTFOLIO-0d1117?style=for-the-badge&logo=vercel&logoColor=22D3EE&labelColor=0d1117&color=0e7490" /></a>
-</p>
 
 <!-- Place pacman-love.gif in an /assets folder in this repo -->
 <p align="center">
