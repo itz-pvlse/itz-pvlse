@@ -100,7 +100,7 @@ flowchart LR
 
 <!-- Place pacman-love.gif in an /assets folder in this repo -->
 <p align="center">
-  <img src="./assets/pacman-love.gif" width="420" alt="pacman love" />
+  <img src="./pacman-love.gif" width="420" alt="pacman love" />
 </p>
 
 <p align="center">
